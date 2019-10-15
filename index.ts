@@ -6,8 +6,15 @@ const rules = {
   C: ['', 'F:V'],
 }
 
+function chooseRule(s: string, stack: string[]): string {
+  return rules.V[1];
+}
+
 function parse(s: string): void {
   debugger;
+  const stack: string[] = ['C'];
+  if ()
+
 }
 parse(s);
 
